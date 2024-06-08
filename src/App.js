@@ -14,6 +14,7 @@ function App() {
       <Route path='/search' element={<SearchItem/>}/>
       <Route path='/delete' element={<DeleteItem/>}/>
       <Route path='/viewall' element={<ViewItem/>}/>
+      <Route path='/news' element={<News/>}/>
       </Routes>
       </BrowserRouter>
   );

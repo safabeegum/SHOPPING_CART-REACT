@@ -24,6 +24,10 @@ const Navbar = () => {
         <li class="nav-item">
           <Link class="nav-link" to="/viewall">VIEW ITEM</Link>
         </li>
+
+        <li class="nav-item">
+          <Link class="nav-link" to="/news">NEWS</Link>
+        </li>
         
       </ul>
     </div>
