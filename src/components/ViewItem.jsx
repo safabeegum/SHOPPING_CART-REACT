@@ -19,14 +19,15 @@ const ViewItem = () => {
                             (value,index) => {
                                 return <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                                 <div class="card">
-                                <img src={value.image} class="card-img-top" alt="..."></img>
+                                <img src={value.image} height="360px" class="card-img-top" alt="..."></img>
                                 <div class="card-body">
                                 <h5 class="card-title">{value.title}</h5>
                                 <p class="card-text">ID:{value.id}</p>
                                 <p class="card-text">DESCRIPION:{value.description}</p>
                                 <p class="card-text">CATEGORY:{value.category}</p>
                                 <p class="card-text">PRICE:{value.price}</p>
-                                <p class="card-text">RATING:{value.rating}</p>
+                                <p class="card-text">RATING:{value.rate}</p>
+                                <p class="card-text">RATING:{value.count}</p>
                                 <a href="#" class="btn btn-primary">BUY NOW</a>
                             </div>
                         </div>
